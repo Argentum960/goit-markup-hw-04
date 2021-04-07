@@ -93,6 +93,7 @@ header {
 
 .company-icon-link {
   display: inline-flex;
+  color: #afb1b8;
   justify-content: center;
   align-items: center;
   width: 170px;
