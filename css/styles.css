@@ -97,6 +97,14 @@ header {
   align-items: center;
   width: 170px;
   height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.company-icon-link:hover,
+.company-icon-link:focus {
+  color: var(--accent-color);
 }
 
 /* logo */
@@ -357,6 +365,10 @@ header {
   align-items: center;
   width: 170px;
   height: 90px;
+}
+
+.company-icon:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* footer */
