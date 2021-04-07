@@ -378,6 +378,14 @@ header {
   background-color: var(--primary-text-color);
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-nav {
+  margin-right: 70px;
+}
 .logo.secondary {
   display: inline-block;
   color: var(--primary-white-color);
