@@ -170,7 +170,7 @@ header {
 }
 
 .contacts-link .icon {
-  fill: var(--title-text-color);
+  fill: currentColor;
   margin-right: 10px;
 }
 
