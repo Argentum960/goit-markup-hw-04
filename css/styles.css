@@ -97,7 +97,7 @@ header {
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
+  border: 1px solid currentColor;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -172,11 +172,6 @@ header {
 .contacts-link .icon {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.contacts-link:hover .icon,
-.contacts-link:focus .icon {
-  fill: #2196f3;
 }
 
 .button.secondary {
