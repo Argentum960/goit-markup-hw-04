@@ -227,6 +227,7 @@ header {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  border: currentColor;
 }
 
 /* features */
