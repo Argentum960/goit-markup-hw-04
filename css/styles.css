@@ -198,7 +198,7 @@ header {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/Шапка.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header.jpg);
   text-align: center;
   background-position: center;
 }
@@ -362,6 +362,11 @@ header {
   align-items: center;
   width: 170px;
   height: 90px;
+}
+
+.company-item {
+  display: inline-flex;
+  fill: currentColor;
 }
 
 .company-icon:not(:last-child) {
